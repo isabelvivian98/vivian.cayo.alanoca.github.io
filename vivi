@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9e1e6; /* Rosa suave */
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        /* Contenedor principal */
+        .container {
+            max-width: 900px;
+            margin: 20px;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Títulos */
+        h1, h2 {
+            text-align: center;
+            color: #ff6b81; /* Rosa vibrante */
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-top: 30px;
+        }
+
+        /* Sección de introducción */
+        .intro {
+            text-align: center;
+            font-size: 1.2rem;
+            margin: 20px 0;
+            color: #666;
+        }
+
+        /* Estilos para la lista de habilidades */
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .skills div {
+            background-color: #ff6b81; /* Rosa vibrante */
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Sección de contacto */
+        .contact {
+            background-color: #ff6b81;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+        }
+
+        .contact a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #ff6b81;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact a:hover {
+            background-color: #ff2a53;
+        }
+
+        /* Estilos de animación */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .container {
+            animation: fadeIn 2s ease-in-out;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Hola, soy [Vivian]</h1>
+        <div class="intro">
+            <p>Desarrollador web y diseñador apasionado por crear experiencias digitales hermosas y funcionales. Me encanta trabajar en proyectos que desafíen mi creatividad y habilidades técnicas.</p>
+        </div>
+
+        <h2>Habilidades</h2>
+        <div class="skills">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JavaScript</div>
+            <div>React</div>
+            <div>Python</div>
+            <div>Diseño UX/UI</div>
+        </div>
+
+        <div class="contact">
+            <p>¿Quieres saber más sobre mí? Contáctame:</p>
+            <a href="vivianacayoalanoca@gmail.com">Enviar correo</a>
+        </div>
+    </div>
+
+</body>
+</html>
